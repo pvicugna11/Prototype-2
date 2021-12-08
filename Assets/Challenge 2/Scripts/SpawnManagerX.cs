@@ -18,7 +18,7 @@ public class SpawnManagerX : MonoBehaviour
         StartCoroutine("SpawnRandomBallSystem");
     }
 
-    IEnumerator SpawnRandomBallSystem()
+    private IEnumerator SpawnRandomBallSystem()
     {
         yield return new WaitForSeconds(startDelay);
 

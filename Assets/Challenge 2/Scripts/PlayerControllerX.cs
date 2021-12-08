@@ -12,7 +12,7 @@ public class PlayerControllerX : MonoBehaviour
         StartCoroutine("SendDogSystem");
     }
 
-    IEnumerator SendDogSystem()
+    private IEnumerator SendDogSystem()
     {
         while (true)
         {
